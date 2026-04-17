@@ -44,7 +44,8 @@
     </header>
     <!-- /Header -->
 
-    <main class="container">
+    <!-- Main Content -->
+    <main>
       <!-- Banner -->
       <section id="banner">
         <h1 class="banner-paragraph">NIKE</h1>
@@ -55,7 +56,7 @@
       <!-- /Banner -->
 
       <!-- Products -->
-      <section id="products">
+      <section id="products" class="container">
         <div class="main-product">
           <img
             src="/assets/images/nike-boots-1.png"
@@ -120,5 +121,72 @@
       </section>
       <!-- /Products -->
     </main>
+    <!-- /Main Content -->
+
+    <footer id="footer">
+      <div class="container">
+        <form action="" method="POST" class="footer-form">
+          <input
+            type="text"
+            name="full-name"
+            placeholder="Your name"
+            class="footer-form__input"
+          />
+          <textarea
+            name="message"
+            cols="30"
+            rows="5"
+            placeholder="Message"
+            class="footer-form__input"
+          ></textarea>
+          <button class="footer-form__btn">Submit</button>
+        </form>
+        <!-- /Form -->
+
+        <!-- Social media -->
+        <ul class="footer-links">
+          <li class="footer-link__item">
+            <a
+              href="https://www.facebook.com"
+              class="footer-link__icon"
+              target="_blank"
+            >
+              <img
+                src="./assets/icons/facebook-icon.svg"
+                alt="facebook-icon "
+              />
+            </a>
+          </li>
+          <li class="footer-link__item">
+            <a href="https://x.com" class="footer-link__icon" target="_blank">
+              <img src="./assets/icons/twittter-icon.svg" alt="twitter-icon " />
+            </a>
+          </li>
+          <li class="footer-link__item">
+            <a
+              href="https://www.google.com"
+              class="footer-link__icon"
+              target="_blank"
+            >
+              <img src="./assets/icons/google-icon.svg" alt="google-icon " />
+            </a>
+          </li>
+          <li class="footer-link__item">
+            <a
+              href="https://www.pinterest.com"
+              class="footer-link__icon"
+              target="_blank"
+            >
+              <img
+                src="./assets/icons/pinterest-icon.svg"
+                alt="pinterest-icon "
+              />
+            </a>
+          </li>
+        </ul>
+        <!-- /Social media -->
+      </div>
+      <!-- Form -->
+    </footer>
   </body>
 </html>
