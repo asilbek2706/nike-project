@@ -10,6 +10,7 @@
   --product-card-bg: #ffffff;
   --primary-btn-color: #ffffff;
   --primary-btn-bg-color: #544294;
+  --icon-color: #ffffff;
 }
 
 * {
@@ -88,6 +89,32 @@ body {
 
 .banner-text-bold {
   font-weight: bold;
+}
+
+.menu-icon {
+  color: var(--icon-color);
+  width: 3rem;
+  cursor: pointer;
+  z-index: 101;
+}
+
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: var(--primary-color);
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.mobile-nav__items {
+  margin-top: 5rem;
 }
 /* /banner */
 

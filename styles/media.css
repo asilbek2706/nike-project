@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1024px) {
+  .product-title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    padding: 1rem 0;
+  }
+
+  .header-nav__items {
+    display: none;
+  }
+
+  #products {
+    grid-template-areas: 'a a' 'a a' 'b c' 'd e';
+  }
+
+  .main-product {
+    max-width: unset;
+  }
+
+  .product-title {
+    text-align: start;
+  }
+
+  .main-product__image {
+    width: 100%;
+  }
+
+  .product {
+    max-width: unset;
+  }
+}
