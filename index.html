@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700@display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -17,7 +17,11 @@
     <!-- Header -->
     <header id="header">
       <nav class="header-nav container">
-        <img src="./assets/icons/nike-logo.svg" alt="Nike Logo" />
+        <img
+          src="./assets/icons/nike-logo.svg"
+          alt="nike-logo"
+          class="header-logo"
+        />
         <ul class="header-nav__items">
           <li class="header-nav__item">
             <a href="#" class="header-nav__link">Sneakers</a>
@@ -48,7 +52,6 @@
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="size-6"
         >
           <path
             stroke-linecap="round"
@@ -56,130 +59,122 @@
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           />
         </svg>
-
-        <div class="mobile-menu">
-          <ul class="mobile-nav__items">
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Sneakers</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Gumshoes</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">T-shirts</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Shorts</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Jeans</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Sweaters</a>
-            </li>
-            <li class="header-nav__item">
-              <a href="#" class="header-nav__link">Sweatshirts</a>
-            </li>
-          </ul>
-        </div>
       </nav>
+      <div class="mobile-menu">
+        <ul class="mobile-nav-items">
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Sneakers</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Gumshoes</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">T-shirts</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Shorts</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Jeans</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Sweaters</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#" class="header-nav__link">Sweatshirts</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- /Header -->
 
-    <!-- Main Content -->
+    <!-- Main -->
     <main>
-      <!-- Banner -->
       <section id="banner">
         <h1 class="banner-paragraph">NIKE</h1>
-        <p class="banner-text">
-          Cool sneakers from <span class="banner-text-bold">NIKE</span> for you
-        </p>
+        <p class="banner-text">Cool sneakers from <b>NIKE</b> for you</p>
       </section>
-      <!-- /Banner -->
-
-      <!-- Products -->
       <section id="products" class="container">
         <div class="main-product">
           <img
-            src="/assets/images/nike-boots-1.png"
+            src="./assets/images/nike-boots-1.png"
             alt="Shoe Review: Nike React Infinity Run"
             class="main-product__image"
           />
           <h2 class="product-title">Shoe Review: Nike React Infinity Run</h2>
           <p class="product-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            aspernatur, nihil voluptatem illum odio delectus. Quas ducimus
-            debitis impedit neque alias natus in? Dolor possimus velit
-            perferendis, ducimus corporis aut. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Velit ex tempora eligendi quidem quasi
-            sequi explicabo, architecto expedita, ipsam libero reprehenderit
-            illum unde vero accusamus molestias ut quod! Numquam, dicta!
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringilla urna,
+            porttitor rhoncus dolor purus non enim praesent elementum facilisis
+            leo, vel fringilla est ullamcorper eget nulla facilisi etiam
+            dignissim diam quis enim lobortis scelerisque fermentum dui faucibus
+            in ornare quam viverra orci sagittis eu volutpat odio facilisis
+            mauris sit amet massa
           </p>
         </div>
         <div class="product">
           <div class="product-image__wrapper">
-            <img src="/assets/images/nike-boots-2.png" alt="Nike Air Max 270" />
+            <img
+              src="./assets/images/nike-boots-2.png"
+              alt="Nike Air Max 270"
+            />
           </div>
           <h2 class="product-title">Nike Air Max 270</h2>
           <p class="product-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            optio assumenda unde modi asperiores culpa quas neque, consequatur
-            earum, doloremque officia est.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis
           </p>
         </div>
         <div class="product">
           <div class="product-image__wrapper">
-            <img src="/assets/images/nike-boots-3.png" alt="Nike Tanjun" />
+            <img src="./assets/images/nike-boots-3.png" alt="Nike Tanjun" />
           </div>
           <h2 class="product-title">Nike Tanjun</h2>
           <p class="product-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            optio assumenda unde modi asperiores culpa quas neque, consequatur
-            earum, doloremque officia est.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis
           </p>
         </div>
         <div class="product">
           <div class="product-image__wrapper">
-            <img src="/assets/images/nike-boots-4.png" alt="Green Air Force" />
+            <img src="./assets/images/nike-boots-4.png" alt="Green Air Force" />
           </div>
           <h2 class="product-title">Green Air Force</h2>
           <p class="product-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            optio assumenda unde modi asperiores culpa quas neque, consequatur
-            earum, doloremque officia est.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis
           </p>
         </div>
         <div class="product">
           <div class="product-image__wrapper">
-            <img src="/assets/images/nike-boots-5.png" alt="Nike Moon Shoes" />
+            <img src="./assets/images/nike-boots-5.png" alt="Nike moon shoes" />
           </div>
-          <h2 class="product-title">Nike Moon Shoes</h2>
+          <h2 class="product-title">Nike moon shoes</h2>
           <p class="product-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            optio assumenda unde modi asperiores culpa quas neque, consequatur
-            earum, doloremque officia est.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis
           </p>
         </div>
       </section>
-      <!-- /Products -->
     </main>
-    <!-- /Main Content -->
+    <!-- /Main -->
 
     <footer id="footer">
       <div class="container">
-        <form action="" method="POST" class="footer-form">
+        <!-- Form -->
+        <form action="" method="post" class="footer-form">
           <input
             type="text"
-            name="full-name"
-            placeholder="Your name"
+            name="fullName"
             class="footer-form__input"
+            placeholder="Your Name"
           />
           <textarea
             name="message"
             cols="30"
             rows="5"
-            placeholder="Message"
             class="footer-form__input"
+            placeholder="Message"
           ></textarea>
           <button class="footer-form__btn">Submit</button>
         </form>
@@ -189,48 +184,44 @@
         <ul class="footer-links">
           <li class="footer-link__item">
             <a
-              href="https://www.facebook.com"
-              class="footer-link__icon"
+              href="https://facebook.com"
               target="_blank"
+              class="footer-link-icon"
             >
-              <img
-                src="./assets/icons/facebook-icon.svg"
-                alt="facebook-icon "
-              />
-            </a>
-          </li>
-          <li class="footer-link__item">
-            <a href="https://x.com" class="footer-link__icon" target="_blank">
-              <img src="./assets/icons/twittter-icon.svg" alt="twitter-icon " />
+              <img src="./assets/icons/facebook-icon.svg" alt="facebook-icon" />
             </a>
           </li>
           <li class="footer-link__item">
             <a
-              href="https://www.google.com"
-              class="footer-link__icon"
+              href="https://google.com"
               target="_blank"
+              class="footer-link-icon"
             >
-              <img src="./assets/icons/google-icon.svg" alt="google-icon " />
+              <img src="./assets/icons/google-icon.svg" alt="facebook-icon" />
             </a>
           </li>
           <li class="footer-link__item">
             <a
-              href="https://www.pinterest.com"
-              class="footer-link__icon"
+              href="https://pinterest.com"
               target="_blank"
+              class="footer-link-icon"
             >
               <img
                 src="./assets/icons/pinterest-icon.svg"
-                alt="pinterest-icon "
+                alt="facebook-icon"
               />
+            </a>
+          </li>
+          <li class="footer-link__item">
+            <a href="https://x.com" target="_blank" class="footer-link-icon">
+              <img src="./assets/icons/twittter-icon.svg" alt="facebook-icon" />
             </a>
           </li>
         </ul>
         <!-- /Social media -->
       </div>
-      <!-- Form -->
     </footer>
-
-    <script src="./javascript/script.js"></script>
   </body>
+
+  <script src="./javascript/script.js"></script>
 </html>

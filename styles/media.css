@@ -14,7 +14,11 @@
   }
 
   #products {
-    grid-template-areas: 'a a' 'a a' 'b c' 'd e';
+    grid-template-areas:
+      'a a'
+      'a a'
+      'b c'
+      'd e';
   }
 
   .main-product {
@@ -31,5 +35,30 @@
 
   .product {
     max-width: unset;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .product-title {
+    text-align: center;
+  }
+
+  #footer .container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .menu-icon {
+    width: 2rem;
+  }
+
+  .header-logo {
+    max-width: 80px;
   }
 }
